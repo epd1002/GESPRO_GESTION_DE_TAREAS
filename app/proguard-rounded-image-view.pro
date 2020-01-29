@@ -1,4 +1,6 @@
-@@ -1,53 +1,3 @@
+@@ -0,0 +1,5 @@
 #----------------------------------------------------------------------------------------------
-# General Proguard rules
+# RoundedImageView | https://github.com/WhisperSystems/Signal-Android/blob/master/proguard-rounded-image-view.pro
 #----------------------------------------------------------------------------------------------
+
+-dontwarn com.squareup.picasso.**
