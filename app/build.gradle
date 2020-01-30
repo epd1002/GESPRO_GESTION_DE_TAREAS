@@ -143,7 +143,9 @@ dependencies {
     compile 'com.android.support:support-v4:25.3.1'
     // Google Location and Activity Recognition : https://developers.google.com/android/guides/setup
     compile 'com.google.android.gms:play-services-location:11.0.4'
-    // OpenCV (computer vision) : https://github.com/davidmigloz/opencv-android-gradle-repo/
+    // Firebase Analytics : https://firebase.google.com/docs/android/setup#available_libraries
+    compile 'com.google.firebase:firebase-core:11.4.0'
+	// OpenCV (computer vision) : https://github.com/davidmigloz/opencv-android-gradle-repo/
     compile 'com.github.davidmigloz:opencv-android-gradle-repo:3.2.0'
 	// Guava (Google Core Libraries) : https://github.com/google/guava
     compile 'com.google.guava:guava:23.0-android'
@@ -264,3 +266,5 @@ private static String getBuildDate() {
 private static String getAppName() {
     return "GoBees"
 }
+
+apply plugin: 'com.google.gms.google-services'
